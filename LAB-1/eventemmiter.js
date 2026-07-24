@@ -26,7 +26,7 @@ task.once("exit", () => {
     console.log("system shutting down");
 });
 
-task.emit("greet", "aditya saxsena");
+task.emit("greet", "aditya saxena");
 task.emit("greet", "akshat agarwal");
 task.emit("greet", "avinash rai");
 
