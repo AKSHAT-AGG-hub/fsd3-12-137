@@ -9,7 +9,7 @@ const start = () => {
 };
 
 const working = (name) => {
-    console.log(`${name} adds added to cart`);
+    console.log(`${name} item added to cart`);
 };
 
 const checkout = (name) => {
@@ -17,7 +17,16 @@ const checkout = (name) => {
 };
 
 const task = new EventEmitter();
+task.once("greet", start);
 task.on("greet", login);
+task.on("greet", working);
+task.on("greet", checkout);
 
+task.once("exit", () => {
+    console.log("system shutting down");
+});
+
+task.emit("greet", "aditya saxsena");
 task.emit("greet", "akshat agarwal");
+task.emit("greet", "avinash rai");
 
