@@ -11,7 +11,7 @@ const f3 = () => {
 };
 
 function main() {
-  console.log("main 😂");
+  console.log("main 😊");
   setTimeout(f1, 0);
   setImmediate(f2);
   f3();
