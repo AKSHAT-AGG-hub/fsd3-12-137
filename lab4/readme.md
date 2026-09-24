@@ -21,4 +21,7 @@ in type : common => means program through oops and module means porgram through 
 -majorly backed server return only data not html file
 - REST API uses ( get , post , put , patch , delete) methon to communicate with client 
 - any browser can check only get method
-- for other methond type we use third party API tester like postman , thunder client , echo api etc
+- for other methond type we use third party API tester like postman , thunder client , echo api etc.
+
+## request type:-
+1.GET
